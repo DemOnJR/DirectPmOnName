@@ -1,8 +1,8 @@
-#	Search
+# Search
 
 self.hyperlinkItemTooltip.SetHyperlinkItem(tokens)
 
-#	Add under it
+# Add under it
 
 			# Direct PM on Name
 			elif app.ENABLE_PM_ON_NAME and "msg" == type and str(tokens[1]) != player.GetMainCharacterName():

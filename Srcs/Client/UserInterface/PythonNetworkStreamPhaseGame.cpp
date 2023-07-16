@@ -1,29 +1,26 @@
 // Search
 case CHAT_TYPE_WHISPER:
 
-// Under
-
+// Under this line:
 char * p = strchr(buf, ':');
 
-// Add
-
+// Add this
 #ifdef ENABLE_PM_ON_NAME
-				if (p != NULL) {
-					p = strchr(p + 1, ':');
-				}
+if (p != NULL) {
+	p = strchr(p + 1, ':');
+}
 #endif
 
 // Example
-
-    case CHAT_TYPE_WHISPER:
+		case CHAT_TYPE_WHISPER:
 			{
 				char * p = strchr(buf, ':');
 
-#ifdef ENABLE_PM_ON_NAME
+				#ifdef ENABLE_PM_ON_NAME
 				if (p != NULL) {
 					p = strchr(p + 1, ':');
 				}
-#endif
+				#endif
 
 				if (p)
 					p += 2;
