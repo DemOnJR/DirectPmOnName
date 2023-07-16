@@ -18,3 +18,4 @@ self.hyperlinkItemTooltip.SetHyperlinkItem(tokens)
 				self.hyperlinkItemTooltip.SetHyperlinkItem(tokens)
 			# Direct PM on Name
 			elif app.ENABLE_PM_ON_NAME and "msg" == type and str(tokens[1]) != player.GetMainCharacterName():
+				self.OpenWhisperDialog(str(tokens[1]))
