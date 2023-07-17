@@ -1,4 +1,4 @@
-# DirectPmOnName
+# DirectPmOnName - Metin2
 [IT]  
 Con questo sistema puoi aprire direttamente la finestra PM di un giocatore cliccando direttamente sul nome del giocatore in una qualsiasi delle chat.   
    
