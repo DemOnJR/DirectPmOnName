@@ -1,4 +1,7 @@
 # DirectPmOnName - Metin2
+
+https://metin2.dev/topic/31062-pm-direct-on-name-chat
+
 [IT]  
 Con questo sistema puoi aprire direttamente la finestra PM di un giocatore cliccando direttamente sul nome del giocatore in una qualsiasi delle chat.   
    
